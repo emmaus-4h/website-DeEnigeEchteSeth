@@ -1,0 +1,113 @@
+/* Basislayout */
+
+html, body {
+    height: 100%;
+    padding: 0;
+    background-color: black;
+color: #feda4a;
+font: 'pathway gothic one', sans-serif;
+ }
+
+
+
+main {
+    margin: 0 auto;
+    width: 700px;
+    position: relative;
+}
+
+
+article {
+    height: 100%;
+    padding: 0;
+    background-color: black;
+color: #feda4a;
+font: 'pathway gothic one', sans-serif;
+  
+}
+
+
+header {
+    color: #feda4a;
+    text-align: center;
+}
+
+
+footer {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+
+/* specifieke stijlen */
+
+img.zweefLinks {
+    float: left;
+    margin-right: 15px;
+}
+
+.smalltext {
+    font-size: 0.7em;
+}
+
+a {
+    color: skyblue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/* navigatiebalk */
+nav ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    background-color: black;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav li a {
+    
+    color: skyblue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: black;
+}
+
+nav li .active {
+    background-color: black;
+}
+
+
+
+#tekst {
+  font-size:250% ;
+  text-align:justify;
+  height: 800px;
+  perspective:400px;}
+
+.foto{
+  float:left; 
+  width:250px;
+  height:300px;
+}
+
+  
+    
+    
+    
+    
+    
+.clear {clear:both;
+}
